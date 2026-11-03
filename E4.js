@@ -1,11 +1,21 @@
-//Ejercicio 4
-//Suma con fórmula de Gauss
 
-let i = 100;
-let j;
 
-for (i >= 0; i <= 100 ; i++) {
+const t = [{Nombre: "Francisco", Apellido: "Laviano", Nota: 4},
+          {Nombre: "Juan", Apellido: "Perez", Nota: 8},
+            {Nombre: "Maria", Apellido: "Gonzalez", Nota: 3},
+            {Nombre: "Pedro", Apellido: "Gomez", Nota: 0},
+            {Nombre: "Lucia", Apellido: "Martinez", Nota: 10},
+            {Nombre: "Ana", Apellido: "Lopez", Nota: 6},
+            {Nombre: "Carlos", Apellido: "Rodriguez", Nota: 5},
+            {Nombre: "Sofia", Apellido: "Fernandez", Nota: 12},
+];
 
-     j = 50*i + 50;
-    console.log("Suma de los primeros 100 números= "+j)
-}
+console.log("LISTA GENERAL (nota máxima 12)");
+console.log(t);
+
+let u = t.filter(function (nota) {
+    return nota.Nota >=6
+});
+console.log("LISTA DE APROBADOS (nota mínima 6)");
+console.log(u);
+

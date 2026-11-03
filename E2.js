@@ -1,8 +1,9 @@
-//Ejercicio 2
-let h = 10;
-while (h >= 0) {
-    console.log("Cuenta regresiva: "+h);
-    h--;
-    
-}
-console.log("Despegue")
+
+let p=7;
+
+
+if (p % 2 == 0) {
+    console.log("true");
+} else {
+    console.log("false");
+} 
