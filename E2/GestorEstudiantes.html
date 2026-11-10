@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de estudiantes</title>
+</head>
+<body>
+    <input type="text" id="nombre" placeholder="Ingrese nombre completo">
+    <input type="number" id="edad" placeholder="Ingrese edad"> 
+        <button onclick="agregarEstudiante()">Agregar Estudiante</button>
+       
+    <p id="resultado"></p>
+  <button onclick="mostrarTodos()">Mostrarlos Todos</button>
+     <p id="estudiantesGuardados"></p><br>
+    
+<button onclick="buscarEstudiante()">Buscar Estudiante</button>
+<input type="text" id="buscarEstudiante" placeholder="Buscar estudiante">
+<p id="estudianteEncontrado">Estudiante encontrado: </p><br><br>
+<p id="datosGuardados">Cantidad de datos en almacenamiento local:  </p>
+
+    <script src="gestorEstudiantes.js"></script>
+</body>
+</html>
